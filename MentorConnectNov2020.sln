@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoWebForms", "DemoWebForm
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentEnrollment.App", "StudentEnrollment.App\StudentEnrollment.App.csproj", "{9951A042-5739-4B28-9C76-B56474467EF4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentEnrollment.API", "StudentEnrollment.API\StudentEnrollment.API.csproj", "{AEA62C5A-EB41-44A6-A8CB-8E34CF7A8F2F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{9951A042-5739-4B28-9C76-B56474467EF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9951A042-5739-4B28-9C76-B56474467EF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9951A042-5739-4B28-9C76-B56474467EF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEA62C5A-EB41-44A6-A8CB-8E34CF7A8F2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEA62C5A-EB41-44A6-A8CB-8E34CF7A8F2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEA62C5A-EB41-44A6-A8CB-8E34CF7A8F2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEA62C5A-EB41-44A6-A8CB-8E34CF7A8F2F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,7 +1,11 @@
 ﻿@{
     ViewBag.Title = "About";
+    var TD_TestActionValue = (string)TempData["TestActionValue"];
+    var VD_TestActionValue = (string)ViewData["ViewTestValue"];
 }
 <h2>@ViewBag.Title.</h2>
 <h3>@ViewBag.Message</h3>
+<h3>@TD_TestActionValue</h3>
+<h3>@VD_TestActionValue</h3>
 
 <p>Use this area to provide additional information.</p>

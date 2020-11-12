@@ -31,6 +31,13 @@ namespace StudentEnrollment.App.Controllers
         }
 
 
+        public ActionResult TestAssign()
+        {
+            TempData.Add("TestActionValue", "This is Redirected from Test Assign Temp Data!");
+            ViewData.Add("ViewTestValue", " This is redirected from Test Assign View Data");
+            return RedirectToAction(nameof(About));
+        }
+
 
         [Route("Greet/{message:simple}")]
         public ActionResult Greeting(string message)
