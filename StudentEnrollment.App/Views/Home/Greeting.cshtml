@@ -1,0 +1,22 @@
+﻿@model StudentEnrollment.App.Models.GreetMessage
+@{ 
+    var viewDataStudent = (StudentEnrollment.App.Models.Student) ViewData["Student"];
+    var tempDataStudent = (StudentEnrollment.App.Models.Student)TempData["Student"];
+}
+
+<div>
+
+    @if (DateTime.Now.TimeOfDay.Hours < 12)
+    {
+        <!--This is a html comment-->
+        <span>Good Morning View Bag- @ViewBag.Student.Name !!</span>
+        <span>Good Morning View Data- @viewDataStudent.Name !!</span>
+        <span>Good Morning View Bag- @tempDataStudent.Name !!</span>
+    }
+    else
+    {
+        <span>Good Afternoon View Bag- @ViewBag.Student.Name !!</span>
+        <span>Good Afternoon View Data- @viewDataStudent.Name !!</span>
+        <span>Good Afternoon View Bag- @tempDataStudent.Name !!</span>
+    }
+</div>

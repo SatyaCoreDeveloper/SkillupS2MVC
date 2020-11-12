@@ -1,0 +1,4 @@
+C:\Users\satya\source\repos\MentorConnectNov2020\DemoCSharp\obj\Debug\netcoreapp3.1\DemoCSharp.csprojAssemblyReference.cache
+C:\Users\satya\source\repos\MentorConnectNov2020\DemoCSharp\obj\Debug\netcoreapp3.1\DemoCSharp.AssemblyInfoInputs.cache
+C:\Users\satya\source\repos\MentorConnectNov2020\DemoCSharp\obj\Debug\netcoreapp3.1\DemoCSharp.AssemblyInfo.cs
+C:\Users\satya\source\repos\MentorConnectNov2020\DemoCSharp\obj\Debug\netcoreapp3.1\DemoCSharp.csproj.CoreCompileInputs.cache
