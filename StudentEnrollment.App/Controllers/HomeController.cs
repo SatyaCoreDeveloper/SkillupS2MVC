@@ -1,4 +1,5 @@
-﻿using StudentEnrollment.App.Models;
+﻿using StudentEnrollment.App.Filters;
+using StudentEnrollment.App.Models;
 using System;
 using System.Collections.Generic;
 using System.Drawing.Printing;
@@ -9,20 +10,23 @@ using System.Web.Mvc;
 namespace StudentEnrollment.App.Controllers
 {
     [RoutePrefix("Home")]
+    [CrawlerFilter]
+    [HandleError(ExceptionType =typeof(NullReferenceException), View ="CustomError")]
     public class HomeController : Controller
     {
         public ActionResult Index()
         {
+            throw new NullReferenceException();
             return View();
         }
-
+        
         public ActionResult About()
         {
             ViewBag.Message = "This ia About page message";
 
             return View();
         }
-
+        
         public ActionResult Contact()
         {
             ViewBag.Message = "This is Contact page message";
@@ -61,5 +65,7 @@ namespace StudentEnrollment.App.Controllers
             TempData.Add("Student", student);
             return View("~/Views/Home/Greeting.cshtml", greetMessage);
         }
+
+        override on
     }
 }
